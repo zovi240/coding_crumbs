@@ -14,7 +14,7 @@ Recruiters spend significant time manually screening resumes, often relying on k
 
 ## 💡 Solution
 
-No Crumbs Left is an AI-powered recruitment assistant that intelligently ranks candidates using semantic similarity and multiple recruitment signals, helping recruiters make faster and smarter hiring decisions.
+CrumbRank AI is an AI-powered recruitment assistant that intelligently ranks candidates using semantic similarity and multiple recruitment signals, helping recruiters make faster and smarter hiring decisions.
 
 ---
 
