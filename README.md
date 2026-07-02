@@ -46,7 +46,7 @@ CrumbRank_AI is an AI-powered recruitment assistant that intelligently ranks can
 app.py
 recruitment.py
 backend/
-pages/
+.streamlit/
 requirements.txt
 README.md
 ```
