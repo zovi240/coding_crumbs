@@ -99,3 +99,43 @@ def statistics(results):
         "average_score": round(sum(scores) / len(scores), 2)
 
     }
+
+def save_submission(results, filename="outputs/submission.csv"):
+
+    create_folder("outputs")
+
+    submission = []
+
+    for candidate in results[:100]:
+
+        reason = []
+
+        if candidate["semantic_score"] >= 70:
+            reason.append("Strong semantic match")
+
+        if candidate["skill_score"] >= 70:
+            reason.append("Good technical skill match")
+
+        if candidate["experience"] >= 5:
+            reason.append("Relevant industry experience")
+
+        if candidate["career_score"] >= 50:
+            reason.append("Relevant AI project experience")
+
+        if candidate["signal_score"] >= 70:
+            reason.append("Strong recruiter profile")
+
+        if len(reason) == 0:
+            reason.append("Candidate requires further evaluation")
+
+        submission.append({
+            "candidate_id": candidate["candidate_id"],
+            "rank": candidate["rank"],
+            "score": candidate["final_score"],
+            "reasoning": "; ".join(reason)
+        })
+
+    pd.DataFrame(submission).to_csv(filename, index=False)
+
+    return filename
+
