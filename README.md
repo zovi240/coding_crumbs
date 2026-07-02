@@ -1,4 +1,4 @@
-# 🚀 CrumbRank AI
+# 🚀 CrumbRank_AI
 
 ### AI-Powered Recruitment & Candidate Ranking System
 
@@ -14,7 +14,7 @@ Recruiters spend significant time manually screening resumes, often relying on k
 
 ## 💡 Solution
 
-CrumbRank AI is an AI-powered recruitment assistant that intelligently ranks candidates using semantic similarity and multiple recruitment signals, helping recruiters make faster and smarter hiring decisions.
+CrumbRank_AI is an AI-powered recruitment assistant that intelligently ranks candidates using semantic similarity and multiple recruitment signals, helping recruiters make faster and smarter hiring decisions.
 
 ---
 
